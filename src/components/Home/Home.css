@@ -1,0 +1,16 @@
+.container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  justify-items: center;
+}
+.shirt-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  padding: 20px;
+  /* margin-bottom: 20px; */
+}
+.order-container {
+  position: static;
+  top: 0px;
+}

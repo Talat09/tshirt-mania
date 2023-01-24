@@ -1,0 +1,30 @@
+.shirt {
+  width: 310px;
+  /* height: 610px; */
+  border: 1px solid slategrey;
+  position: relative;
+  padding-bottom: 20px;
+  box-shadow: 6px 6px 10px gray;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.shirt img {
+  width: 280px;
+  padding: 5px;
+  border-radius: 10px;
+}
+.shirt button {
+  position: absolute;
+  left: 0;
+  right: 0px;
+  bottom: 0px;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
